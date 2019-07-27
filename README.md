@@ -54,3 +54,11 @@ To solve this problem, I'll leave it with you. There are many ways of method to 
 My workaround to this problem is MAC Spoofing. As my campus WiFi is passwordless but requires user to log into its Captive Portal webpage until it renew its leases, and it sorta block handshakes from my RPi, and only allowing students to log in using Mac/Windows. I trick the router by changing the wlan1 MAC address to my laptop MAC address, and log in to the network using my laptop when I attend lectures by the day. For more details, google around MAC Spoofing.
 
 If you're following this tutorial, feel free to open issue if you've experienced any trouble. And my apologies for this less effort writings.
+
+### Extras
+###### My Access Point settings
+![dhcpcd.conf](https://github.com/anandakelvin/RPi-3-Headless-Access-Point-Setup-of-Mine/blob/master/static/hostapd.png?raw=true)
+###### Success connection
+![proof](https://github.com/anandakelvin/RPi-3-Headless-Access-Point-Setup-of-Mine/blob/master/static/proof.png?raw=true)
+###### My Raspberry Pi 3B
+![mypi](https://github.com/anandakelvin/RPi-3-Headless-Access-Point-Setup-of-Mine/blob/master/static/mypi.jpg?raw=true)
